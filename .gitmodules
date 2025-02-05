@@ -1,0 +1,3 @@
+[submodule "stickysonicsetup"]
+	path = stickysonicsetup
+	url = https://github.com/leglynnwisc/stickysonicsetup.git

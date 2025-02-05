@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Sticky Sonic on a schedule
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=%i
+AccuracySec=1s
+Persistent=true
+
+[Install]
+WantedBy=timers.target
